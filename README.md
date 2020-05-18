@@ -25,7 +25,7 @@ Accessing the API with the bearer token is now simply a matter of adding it to t
 
 https://rrd.riskfrontiers.com/v1/gnaf_risk_ratings/GANSW703873411
 
-and add an `Authorization` key with the value:
+and add an `Authorization` key to the header with the value:
 ```
 Bearer eyJhbGc...54cG2A
 ```
