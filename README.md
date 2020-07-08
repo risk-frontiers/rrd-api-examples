@@ -19,7 +19,7 @@ grant_type:client_credentials
 
 Contact Risk Frontiers to obtain your client id and secret.
 
-The authentication service will return a JSON object which includes an access token with which you can to access the API. Currently this token has a validity of one hour, after which you need to use the authentication service again to obtain a new token.
+The authentication service will return a JSON object which includes an access token with which you can access the API. Currently this token has a validity of one hour, after which you need to use the authentication service again to obtain a new token.
 
 Accessing the API with the bearer token is now simply a matter of adding it to the http authorization header for the required call. For example to request the Risk Rating data for GNAF-ID: GANSW703873411 use the following:
 
